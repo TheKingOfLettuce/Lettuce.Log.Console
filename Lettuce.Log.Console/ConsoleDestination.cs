@@ -1,6 +1,6 @@
-using LettuceLogger.Core;
+using Lettuce.Log.Core;
 
-namespace LettuceLogger.Console;
+namespace Lettuce.Log.Console;
 
 /// <summary>
 /// Takes log messages and writes them to <see cref="System.Console"/>

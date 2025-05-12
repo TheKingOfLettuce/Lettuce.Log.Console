@@ -4,15 +4,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Title>LettuceLogger.Console</Title>
+    <Title>Lettuce.Log.Console</Title>
     <Authors>Lettuce Studios</Authors>
     <Description>Logging destination that writes to the System.Console with colors</Description>
-    <Version>1.0.1</Version>
+    <Version>2.0.0</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LettuceLogger.Core" Version="2.0.0" />
+    <PackageReference Include="Lettuce.Log.Core" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
