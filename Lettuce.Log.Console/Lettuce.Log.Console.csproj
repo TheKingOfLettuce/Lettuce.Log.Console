@@ -7,12 +7,17 @@
     <Title>Lettuce.Log.Console</Title>
     <Authors>Lettuce Studios</Authors>
     <Description>Logging destination that writes to the System.Console with colors</Description>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Lettuce.Log.Core" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
